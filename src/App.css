@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.drop-area{
+  height: 100vh;
+}
+
+.selected{
+  border: 3px solid blue;
+}
+
+.item {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  margin: 10px;
+  border-radius: 5px;
+  position: absolute;
+  transform: translate(-50%, -50%)
+}
